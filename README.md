@@ -1,14 +1,16 @@
 # Senko
 
 **Senko** (閃光, "flash") is a free After Effects panel made for anime and AMV editors.
-Works in After Effects 2020 to 2026, on Windows and Mac.
+Works in After Effects 2020 to 2026, on Windows and Mac, on any hardware: a gaming
+graphics card, integrated graphics, or just the processor.
 
 ## Download
 
-👉 **[Get the latest version](https://github.com/yur0fx/senko/releases/latest)**
+👉 **[Get the latest version](https://github.com/yur0fx/senko/releases/latest)** (4.52.1)
 
-- **Windows:** download `Senko-Setup-x.x.x.exe`, close After Effects and run it.
-  If Windows shows "Windows protected your PC", click **More info → Run anyway**.
+- **Windows:** download `Senko-Setup-x.x.x-exe.zip`, unzip it, close After Effects and run
+  `Senko-Setup-x.x.x.exe`. If Windows shows "Windows protected your PC", click
+  **More info → Run anyway**.
 - **Mac:** download `Senko_vx.x.x.zip`, unzip it, close After Effects, then right-click
   `Install-Mac.command` → **Open**.
 
@@ -18,13 +20,36 @@ Senko updates itself: when a new version is out, the panel offers it with one cl
 
 ## What's in it
 
+- **Upscale & interpolate**: one card to upscale (Real-CUGAN / Real-ESRGAN) and add in-between
+  frames (RIFE, or **GMFSS Anime** for much less warping on big moves). Interpolation keeps the
+  clip length and skips held frames. Options live in their own **Settings** window.
+- **Object mask**: click on a character to mask it through the whole clip, in its own floating
+  window. Green dots add, red dots cut out gaps (between arms, legs, hair). Pick **Fast**,
+  **Standard** or **Best** model.
 - **Duplicate Frame Remover**: finds and removes repeated frames in anime footage
-- **Upscaler**: AI upscaling (Real-CUGAN / Real-ESRGAN) right inside After Effects
-- **Object mask**: click on a character to mask it through the whole clip
-- **Scene cut finder**: finds every cut in a clip
-- **Graph**: a value graph for easing keyframes
-- **Presets**: quick-apply effects and presets, FX Console style
+- **Scene cut finder / Sequence**: finds every cut in a clip and splits it into layers
+- **Graph**: a value graph for easing keyframes, with an eyedropper and custom handles
+- **Presets**: quick-apply effects, presets and curves (double-click to apply), FX Console style
 - **Senko Bar**: your own buttons for menu commands, scripts, effects and code
+- **Device choice**: every AI tool can run on Auto, your dedicated card, integrated graphics or
+  the processor, so it works on low-end PCs too
+- **Look**: Glass or Flat theme, with optional glow
+
+AI models download the first time you use them, so the installer stays small.
+
+## What's new
+
+- **4.52.1**: GMFSS Anime interpolation model.
+- **4.52.0**: compact Upscale & interpolate card, Settings window, Less warp option.
+- **4.51**: Interpolate skips held frames; fix for "Couldn't write the matte".
+- **4.50**: new Glass look, eyedropper picks from the comp, Object mask reaches the frame edges.
+- **4.49**: Object mask in its own window; fixed update check.
+- **4.47 – 4.48**: much faster interpolation.
+- **4.44 – 4.46**: automatic error reports, smoother mask preview, red dots cut out small gaps.
+- **4.37 – 4.43**: device choice per tool, interpolation keeps clip length, no more grey or
+  see-through clips, native timeline label colours, Sequence trims each cut.
+- **4.34 – 4.36**: Upscaler works without a Vulkan card, one Upscale & interpolate card,
+  double-click presets, Fast / Standard / Best mask models.
 
 ## Feedback
 
