@@ -6,7 +6,7 @@ graphics card, integrated graphics, or just the processor.
 
 ## Download
 
-👉 **[Get the latest version](https://github.com/yur0fx/senko/releases/latest)** (4.52.1)
+👉 **[Get the latest version](https://github.com/yur0fx/senko/releases/latest)**
 
 - **Windows:** download `Senko-Setup-x.x.x-exe.zip`, unzip it, close After Effects and run
   `Senko-Setup-x.x.x.exe`. If Windows shows "Windows protected your PC", click
@@ -39,6 +39,9 @@ AI models download the first time you use them, so the installer stays small.
 
 ## What's new
 
+- **4.52.4**: curves now work on Mask Path and shape Path keyframes.
+- **4.52.3**: GMFSS Anime is offered only with a dedicated graphics card, and always runs on it.
+- **4.52.2**: GMFSS Anime runs fully on the graphics card, with a faster motion search and less memory.
 - **4.52.1**: GMFSS Anime interpolation model.
 - **4.52.0**: compact Upscale & interpolate card, Settings window, Less warp option.
 - **4.51**: Interpolate skips held frames; fix for "Couldn't write the matte".
