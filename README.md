@@ -23,6 +23,8 @@ Senko updates itself: when a new version is out, the panel offers it with one cl
 - **Upscale & interpolate**: one card to upscale (Real-CUGAN / Real-ESRGAN) and add in-between
   frames (RIFE, or **GMFSS Anime** for much less warping on big moves). Interpolation keeps the
   clip length and skips held frames. Options live in their own **Settings** window.
+- **Content fill**: remove things from video, like Content-Aware Fill but faster: the real background comes from
+  other frames, and AI fills only what no frame shows, without flicker. Own panel: **Senko Content Fill**.
 - **Object mask**: click on a character to mask it through the whole clip, in its own floating
   window. Green dots add, red dots cut out gaps (between arms, legs, hair). Pick **Fast**,
   **Standard** or **Best** model.
@@ -39,6 +41,7 @@ AI models download the first time you use them, so the installer stays small.
 
 ## What's new
 
+- **4.53.0**: new **Content fill** tool.
 - **4.52.4**: curves now work on Mask Path and shape Path keyframes.
 - **4.52.3**: GMFSS Anime is offered only with a dedicated graphics card, and always runs on it.
 - **4.52.2**: GMFSS Anime runs fully on the graphics card, with a faster motion search and less memory.
