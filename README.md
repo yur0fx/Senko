@@ -41,6 +41,7 @@ AI models download the first time you use them, so the installer stays small.
 
 ## What's new
 
+- **4.54.1**: Content fill no longer leaves a thin outline round the fill.
 - **4.54.0**: Object mask brush like Roto Brush, unlimited strokes, AI fine edges.
 - **4.53.0**: new **Content fill** tool.
 - **4.52.4**: curves now work on Mask Path and shape Path keyframes.
