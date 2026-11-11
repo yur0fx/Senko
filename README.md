@@ -25,9 +25,9 @@ Senko updates itself: when a new version is out, the panel offers it with one cl
   clip length and skips held frames. Options live in their own **Settings** window.
 - **Content fill**: remove things from video, like Content-Aware Fill but faster: the real background comes from
   other frames, and AI fills only what no frame shows, without flicker. Own panel: **Senko Content Fill**.
-- **Object mask**: click on a character to mask it through the whole clip, in its own floating
+- **Object mask**: click or paint (like Roto Brush) on a character to mask it through the whole clip, in its own floating
   window. Green dots add, red dots cut out gaps (between arms, legs, hair). Pick **Fast**,
-  **Standard** or **Best** model.
+  **Standard** or **Best** model, and **AI fine** edges for hair and fur.
 - **Duplicate Frame Remover**: finds and removes repeated frames in anime footage
 - **Scene cut finder / Sequence**: finds every cut in a clip and splits it into layers
 - **Graph**: a value graph for easing keyframes, with an eyedropper and custom handles
@@ -41,6 +41,7 @@ AI models download the first time you use them, so the installer stays small.
 
 ## What's new
 
+- **4.54.0**: Object mask brush like Roto Brush, unlimited strokes, AI fine edges.
 - **4.53.0**: new **Content fill** tool.
 - **4.52.4**: curves now work on Mask Path and shape Path keyframes.
 - **4.52.3**: GMFSS Anime is offered only with a dedicated graphics card, and always runs on it.
