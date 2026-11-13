@@ -41,6 +41,7 @@ AI models download the first time you use them, so the installer stays small.
 
 ## What's new
 
+- **4.54.3**: Content fill no longer tears the background on still shots.
 - **4.54.2**: Content fill no longer leaves an outline round glowing characters.
 - **4.54.1**: Content fill no longer leaves a thin outline round the fill.
 - **4.54.0**: Object mask brush like Roto Brush, unlimited strokes, AI fine edges.
