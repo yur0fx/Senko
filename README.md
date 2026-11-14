@@ -41,6 +41,7 @@ AI models download the first time you use them, so the installer stays small.
 
 ## What's new
 
+- **4.54.5**: Graph no longer errors on the Curves effect's curve.
 - **4.54.4**: Object mask and Content fill work on the whole clip when the work area misses it.
 - **4.54.3**: Content fill no longer tears the background on still shots.
 - **4.54.2**: Content fill no longer leaves an outline round glowing characters.
