@@ -32,6 +32,9 @@ Senko updates itself: when a new version is out, the panel offers it with one cl
 - **Scene cut finder / Sequence**: finds every cut in a clip and splits it into layers
 - **Graph**: a value graph for easing keyframes, with an eyedropper and custom handles
 - **Presets**: quick-apply effects, presets and curves (double-click to apply), FX Console style
+- **Layers**: Precomp each, Decomp, Duplicate, Rename, Sequence and Invert
+- **Copy style**: copy effects (keyframes, easing, expressions) from one layer and paste them onto others,
+  as they are or fitted to each layer's length
 - **Senko Bar**: your own buttons for menu commands, scripts, effects and code
 - **Device choice**: every AI tool can run on Auto, your dedicated card, integrated graphics or
   the processor, so it works on low-end PCs too
@@ -41,6 +44,8 @@ AI models download the first time you use them, so the installer stays small.
 
 ## What's new
 
+- **4.55.0**: Layers section (Precomp each, Decomp, Duplicate, Rename, Sequence, Invert) and Copy style
+  (Copy fx / Paste fx / Paste fitted).
 - **4.54.5**: Graph no longer errors on the Curves effect's curve.
 - **4.54.4**: Object mask and Content fill work on the whole clip when the work area misses it.
 - **4.54.3**: Content fill no longer tears the background on still shots.
