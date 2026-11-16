@@ -44,6 +44,7 @@ AI models download the first time you use them, so the installer stays small.
 
 ## What's new
 
+- **4.55.1**: Graph fits the curve on lots of keyframes and zooms in on a segment.
 - **4.55.0**: Layers section (Precomp each, Decomp, Duplicate, Rename, Sequence, Invert) and Copy style
   (Copy fx / Paste fx / Paste fitted).
 - **4.54.5**: Graph no longer errors on the Curves effect's curve.
